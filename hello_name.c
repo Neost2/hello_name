@@ -3,15 +3,12 @@
 #include <stdio.h>
 
 
-
-
-longint main(void)
+ int main(void)
 {
-	//get name
-	    char name[20];
-		printf ("Please enter in your name then [return]: ");
-		scanf(% s, name);
-		printf ("Hello, %s!\n, name ");
+	char input_name[20];	    
+		printf("Please enter in your name: ");
+		scanf("%s", input_name);
+		printf("Hello, %s\n", input_name);
 
 		return 0;
 
